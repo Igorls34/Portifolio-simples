@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #2c3e50, #4b6cb7);
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(90deg, #1c1c1c, #3b3b3b);
+    color: white;
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.projetos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projeto {
+    background: #2c3e50;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, background 0.3s;
+    color: white;
+}
+
+.projeto:hover {
+    transform: scale(1.05);
+    background: #34495e;
+}
+
+.projeto h3 {
+    margin: 0 0 10px;
+    color: #ecf0f1;
+    font-size: 20px;
+}
+
+.projeto p {
+    color: #bdc3c7;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.projeto a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: linear-gradient(90deg, #1f1f1f, #3b3b3b);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+    font-size: 14px;
+}
+
+.projeto a:hover {
+    background: linear-gradient(90deg, #3b3b3b, #1f1f1f);
+}
+
+footer {
+    background: linear-gradient(90deg, #1c1c1c, #3b3b3b);
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+}
